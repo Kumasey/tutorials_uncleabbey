@@ -42,7 +42,7 @@ const addAnimal = (req, res) => {
     age,
   };
   animals.push(data);
-  return successResponse(res, 201, 'ANimal added successfully', {
+  return successResponse(res, 201, 'Animal added successfully', {
     animal: data,
   });
 };
