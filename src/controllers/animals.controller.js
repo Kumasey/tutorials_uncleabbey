@@ -48,9 +48,7 @@ const addAnimal = (req, res) => {
 };
 
 const getAllAnimals = (req, res) => {
-  return successResponse(res, 200, 'animal retrieved successfully', {
-    animals,
-  });
+  return successResponse(res, 200, 'animal retrieved successfully', animals);
 };
 
 const getAnimalsById = (req, res, next) => {

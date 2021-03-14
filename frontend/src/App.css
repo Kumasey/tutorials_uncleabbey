@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.animal-details {
+    width: 30%;
+    text-align: center;
+    border:  1px solid red;
+    padding: 2em;
+}
+.animal-details  button {
+    margin: 2em;
+    padding: .75em;
+    border: 0;
+    outline: 0;
+    color: white;
+}
+ .back-btn {
+    background: #000;
+}
+.animal-details > div > button {
+    background: red;
+}
+.animal-details > div > a > button {
+    background: blue;
+}
